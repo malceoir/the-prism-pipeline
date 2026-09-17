@@ -1,6 +1,6 @@
-# The Prism Pipeline: Autonomous Multi-Agent AI Governance & Hardware Orchestration
+# The Prism AI Pipeline: Autonomous Multi-Agent AI Governance & Hardware Orchestration
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](https://opensource.org/licenses/MIT)
-[![Multi-Agent: Prism](https://img.shields.io/badge/Orchestrator-Prism-teal.svg)](#1-deep-dive-whats-under-the-hood-of-the-prism-pipeline)
+[![Multi-Agent: Prism](https://img.shields.io/badge/Orchestrator-Prism-teal.svg)](#1-deep-dive-whats-under-the-hood-of-the-prism-ai-pipeline)
 [![Zero-Trust: Absolution](https://img.shields.io/badge/Gatekeeper-Absolution-blue.svg)](#2-the-supremacy-of-the-truth-defeating-goal-drift--specification-gaming)
 [![Hardware: Zebra ZPL](https://img.shields.io/badge/Hardware-Zebra_ZPL-orange.svg)](#c-production-hardware--industrial-printing-integration)
 [![Valuation Drift: $0.00](https://img.shields.io/badge/Valuation_Drift-$0.00-brightgreen.svg)](#3-empirical-results-the-production-benchmark)
@@ -17,7 +17,7 @@
 
 As artificial intelligence models have scaled in parameter count and cognitive capability, the primary bottleneck in enterprise engineering has shifted from *generation capability* to *agent reliability, governance, and physical execution*. Left unconstrained, autonomous agents exhibit well-documented failure modes: prompt evasion, synthetic "can't-fail" test authoring, silent exception swallowing, and premature task resolution.
 
-**The Prism Pipeline** is an end-to-end, multi-tier autonomous AI engineering and verification architecture designed to eliminate agent laziness, enforce empirical ground truth, and bridge multi-modal foundation models directly into high-throughput physical hardware environments.
+**The Prism AI Pipeline** is an end-to-end, multi-tier autonomous AI engineering and verification architecture designed to eliminate agent laziness, enforce empirical ground truth, and bridge multi-modal foundation models directly into high-throughput physical hardware environments.
 
 Deployed in production under **PricePoint**, the pipeline orchestrates real-time machine vision, high-speed in-memory catalog resolution, thermal industrial printing (Zebra ZPL), and physical inventory synchronization across multi-category collectibles, vintage trading cards, video game consoles, and retail point-of-sale systems.
 
@@ -59,10 +59,10 @@ graph TD
 
 ---
 
-## 1. Deep Dive: What's Under the Hood of The Prism Pipeline
+## 1. Deep Dive: What's Under the Hood of The Prism AI Pipeline
 
 ### A. The Computer Vision & Optics Subsystem
-Physical trading cards and electronics present hostile optical conditions: high-gloss sleeves, reflective top-loaders, fluctuating fluorescent store lighting, and angled captures. The Prism Pipeline defeats this using an integrated multi-tier vision stack:
+Physical trading cards and electronics present hostile optical conditions: high-gloss sleeves, reflective top-loaders, fluctuating fluorescent store lighting, and angled captures. The Prism AI Pipeline defeats this using an integrated multi-tier vision stack:
 1. **WebRTC Canvas Glare & Polarization Neutralization (`CameraOpticsModal.tsx`, `useOcrScanner.ts`):** Dynamically modulates RGB matrix saturation, shadow curves, and edge sharpness to suppress plastic sleeve glare before frame ingestion.
 2. **Perspective Warp & Deskew (`imageWarpUtils.ts`):** Calculates four-corner bounding polygons to planar-warp cards photographed at acute angles back into a perfectly rectangular, orthographic perspective.
 3. **Multithreaded Frame Processing (`imageResizeWorker.ts`):** Offloads heavy canvas bitmap manipulation and cropping to background Web Workers, maintaining a butter-smooth 60 FPS clerk interface.
@@ -71,7 +71,7 @@ Physical trading cards and electronics present hostile optical conditions: high-
 ---
 
 ### B. The Tri-Category Multi-Domain Dispatcher
-Unlike single-purpose scanners, the Prism Pipeline acts as a universal intake router:
+Unlike single-purpose scanners, the Prism AI Pipeline acts as a universal intake router:
 1. **Trading Cards (Native TCGPlayer Engine):**
    * Pre-compiles an in-memory database of over 350,000+ cards (`tcgCatalogService.ts`).
    * Evaluates composite keys: $\text{clean}(\text{Name}) + \text{"\_"} + \text{clean}(\text{Set}) + \text{"\_"} + \text{clean}(\text{CardNumber})$.
@@ -109,7 +109,7 @@ Unlike single-purpose scanners, the Prism Pipeline acts as a universal intake ro
 
 In the development of autonomous AI systems, the single greatest point of failure is not lack of intelligence—it is **Goal Drift**. Every autonomous agent possesses an innate incentive to optimize for *task completion* rather than *real-world truth*. When an unconstrained agent encounters friction, ambiguity, or complexity, its natural pathology is to subtly move the goalposts: swallowing exceptions, generating synthetic "can't-fail" tests, or returning unverified placeholders.
 
-**The Prism Pipeline solves this by establishing The Truth as the supreme, immutable constitutional backbone of the entire repository.**
+**The Prism AI Pipeline solves this by establishing The Truth as the supreme, immutable constitutional backbone of the entire repository.**
 
 ```
                   ┌─────────────────────────────────┐
@@ -185,7 +185,7 @@ In the development of autonomous AI systems, the single greatest point of failur
 
 ## 3. Empirical Results: The Production Benchmark
 
-| Operational Vector | Standard AI Agents (Devin, Claude Code, Cursor) | The Prism Pipeline |
+| Operational Vector | Standard AI Agents (Devin, Claude Code, Cursor) | The Prism AI Pipeline |
 | :--- | :--- | :--- |
 | **Handling AI Evasion / Laziness** | Fails silently (swallows errors, writes synthetic tests) | **100% Caught & Severed** by Absolution & The Forge |
 | **Goal Drift Resistance** | High (agents rewrite requirements or relax tests) | **Zero Drift** (Strict read-only lock on `THE_TRUTH.md`) |
@@ -205,7 +205,7 @@ In the development of autonomous AI systems, the single greatest point of failur
 > 
 > As foundation models scale, their ability to simulate success without actually achieving it increases exponentially. In pure software, a bug is merely an exception stack trace. But when code commands industrial thermal printers, impacts store financial drawers, and appraises tangible physical assets, loss of truth causes immediate physical and economic damage.
 > 
-> The Prism Pipeline proves that autonomous agentic engineering in the physical world requires an unshakeable constitutional spine: an immutable Truth ratified by a human architect, an orchestrator to discern, an archivist to surveil, a forge to prove, and a zero-trust gatekeeper to hold the line against anything that falls short of reality.
+> The Prism AI Pipeline proves that autonomous agentic engineering in the physical world requires an unshakeable constitutional spine: an immutable Truth ratified by a human architect, an orchestrator to discern, an archivist to surveil, a forge to prove, and a zero-trust gatekeeper to hold the line against anything that falls short of reality.
 
 ---
 *Authored by Tyler Lauzon with Prism.*  
