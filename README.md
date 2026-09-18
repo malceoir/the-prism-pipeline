@@ -183,19 +183,29 @@ In the development of autonomous AI systems, the single greatest point of failur
 
 ---
 
-## 3. Empirical Results: The Production Benchmark
+## 3. Forensic Case Study: The $4,227 Intake Run & The Blind Spot of Autonomous AI
 
-| Operational Vector | Standard AI Agents (Devin, Claude Code, Cursor) | The Prism AI Pipeline |
-| :--- | :--- | :--- |
-| **Handling AI Evasion / Laziness** | Fails silently (swallows errors, writes synthetic tests) | **100% Caught & Severed** by Absolution & The Forge |
-| **Goal Drift Resistance** | High (agents rewrite requirements or relax tests) | **Zero Drift** (Strict read-only lock on `THE_TRUTH.md`) |
-| **Metric Integrity** | Vulnerable (relies on self-reported worker test passes) | **Zero-Trust** (Archivist silent side-channel string audit) |
-| **Catalog Match Speed** | 800ms – 2,500ms (cloud REST latency) | **< 4ms** (In-memory normalized composite map) |
-| **Physical Condition Evaluation** | Blind (prices damaged vintage as Near Mint) | **Vision-Aware** (downgrades creased/scratched grails) |
-| **Reprint Disambiguation** | Confuses original 2009 RP02 with 2020 Konami reprint | **100% Accurate** (evaluates copyright typography) |
-| **Inventory Valuation Drift** | +41.1% overvaluation ($4,227.42 inflated) | **$0.00 drift** ($2,102.71 verified physical ground truth) |
-| **Hardware Execution** | Requires human copy-paste into label software | **Direct 1-Button Dispatch** to Zebra industrial printer |
-| **Network Failure Mode** | Crash or unhandled promise rejection | **Offline CRDT G-Set Buffer** via `sync_agent.exe` |
+A core tenet of The Prism AI Pipeline is intellectual honesty: **autonomous AI left unconstrained will confidently output false data and defend it.**
+
+During production intake testing across a live store inventory session, our automated vision and cataloging pass initially appraised an intake batch of 171 items at **$4,227.42**. 
+
+Because every card had superficially resolved to a valid TCGPlayer product URL and no runtime exceptions were thrown, standard unmonitored AI agents would have declared the job complete. It was only when human domain oversight—The Creator (Tyler Lauzon)—reviewed the output and issued an adversarial challenge (*"Check the grail cards again, some were scanned incorrectly, and check if you removed the cards I already sold"*) that the system was forced into a line-by-line forensic re-evaluation.
+
+The forensic audit revealed **$2,124.71 in phantom valuation drift** across six distinct AI failure modes:
+
+| Failure Vector | What the AI Confidently Claimed | Ground Physical Reality | Financial Impact |
+| :--- | :--- | :--- | :--- |
+| **Vintage Reprint Blindness** | Evaluated Blue-Eyes Shining Dragon (`RP02-EN096`) as the rare 2009 original ($363.23). | Card was the **2020 Konami reprint** (identified by micro-print 2020 copyright typography). | **-$330.73** correction ($32.50 true value) |
+| **Finish & Rarity Hallucination** | Evaluated Final Fantasy Vivi Ornitier (`#0321`) as Borderless Foil ($187.85). | Card was the **Borderless Nonfoil** variant (identified by matte finish and rarity dot indicator). | **-$96.63** correction ($91.22 true value) |
+| **Physical Defect Blindness** | Evaluated multiple vintage cards as "Near Mint" (e.g. Dark Magician SDY-E005, Dark Magician SDY-006, Alolan Marowak GX). | Cards had **deep vertical creases, scratched holofoil faces, and dried liquid crust damage** (Damaged/HP). | **-$90.00+** (Cards dropped below $5 threshold) |
+| **Unlicensed Bootleg Blindness** | Evaluated a Mega Gengar sticker card as an authentic Ultra Rare ($39.51). | Item was an **unlicensed flea-market sticker card** with zero authentic catalog value. | **-$39.51** (Purged to $0.00) |
+| **Double-Shot Binder Duplication** | Evaluated Decree of Silence and Great Goblin twice as separate physical assets ($33.87 & $29.75). | Clerk had taken **two photos 7 seconds apart in the same binder sleeve** (identical dust flecks). | **-$63.62** (Duplicates purged) |
+| **State Leakage (Sold Inventory)** | Retained 51 high-value cards in active inventory (Exodia limbs, Mind Stone, Gandalf, etc.). | These items had **already been sold/traded in an earlier register batch** via a previous print button. | **-$1,504.22** (Sold cards cleanly excised) |
+
+### The Real Takeaway: Human-Architected Governance
+Following this forensic audit, the active inventory was corrected from **171 unverified items ($4,227.42)** down to **107 verified items ($2,102.71)** of true physical ground truth.
+
+This real-world incident proves why autonomous AI cannot be trusted as an unmonitored solo actor. True operational success requires an adversarial symbiotic loop: **The Creator providing domain intuition and adversarial challenge, Prism executing the discernment and deep repair, and Absolution enforcing non-negotiable zero-trust verification against ground truth.**
 
 ---
 
