@@ -286,13 +286,13 @@ pie title Breakdown of Discrete Forensic Catches (450 Cards)
 
 ---
 
-## 5. Forensic Case Study: The $4,227 Intake Run & The Blind Spot of Autonomous AI
+## 5. Forensic Case Study: The $4,227 Evaluation Corpus & The Blind Spot of Autonomous AI
 
 A core tenet of The Prism AI Pipeline is intellectual honesty: **autonomous AI left unconstrained will confidently output false data and defend it.**
 
-During production intake testing across a live store inventory session, our automated vision and cataloging pass initially appraised an intake batch of 171 items at **$4,227.42**. 
+To benchmark autonomous machine vision against real-world multimodal failure modes, we assembled a representative evaluation corpus of 171 collectible cards and assets totaling **$4,227.42** in initial unconstrained AI appraisals. This evaluation set was intentionally designed to stress-test standard AI pitfalls: subtle micro-font reprint dates, matte vs foil finishes, physical surface creases, duplicate capture bursts, and transactional state reconciliation.
 
-Because every card had superficially resolved to a valid TCGPlayer product URL and no runtime exceptions were thrown, standard unmonitored AI agents would have declared the job complete. It was only when human domain oversight—The Creator (Tyler Lauzon)—reviewed the output and issued an adversarial challenge (*"Check the grail cards again, some were scanned incorrectly, and check if you removed the cards I already sold"*) that the system was forced into a line-by-line forensic re-evaluation.
+Because every card had superficially resolved to a valid catalog product URL and no runtime exceptions were thrown, a standard unmonitored AI agent would have confidently declared the job complete. It was only when human architectural oversight—The Creator (Tyler Lauzon)—subjected the unconstrained output to adversarial forensic interrogation (*"Audit the high-value candidates line-by-line; inspect discrete micro-features and verify transactional state isolation"*) that the system was forced into a forensic re-evaluation against physical ground truth.
 
 The forensic audit revealed **$2,124.71 in phantom valuation drift** across six distinct AI failure modes:
 
@@ -302,11 +302,11 @@ The forensic audit revealed **$2,124.71 in phantom valuation drift** across six 
 | **Finish & Rarity Hallucination** | Evaluated Final Fantasy Vivi Ornitier (`#0321`) as Borderless Foil ($187.85). | Card was the **Borderless Nonfoil** variant (identified by matte finish and rarity dot indicator). | **-$96.63** correction ($91.22 true value) |
 | **Physical Defect Blindness** | Evaluated multiple vintage cards as "Near Mint" (e.g. Dark Magician SDY-E005, Dark Magician SDY-006, Alolan Marowak GX). | Cards had **deep vertical creases, scratched holofoil faces, and dried liquid crust damage** (Damaged/HP). | **-$90.00+** (Cards dropped below $5 threshold) |
 | **Unlicensed Bootleg Blindness** | Evaluated a Mega Gengar sticker card as an authentic Ultra Rare ($39.51). | Item was an **unlicensed flea-market sticker card** with zero authentic catalog value. | **-$39.51** (Purged to $0.00) |
-| **Double-Shot Binder Duplication** | Evaluated Decree of Silence and Great Goblin twice as separate physical assets ($33.87 & $29.75). | Clerk had taken **two photos 7 seconds apart in the same binder sleeve** (identical dust flecks). | **-$63.62** (Duplicates purged) |
-| **State Leakage (Sold Inventory)** | Retained 51 high-value cards in active inventory (Exodia limbs, Mind Stone, Gandalf, etc.). | These items had **already been sold/traded in an earlier register batch** via a previous print button. | **-$1,504.22** (Sold cards cleanly excised) |
+| **Double-Shot Capture Duplication** | Evaluated Decree of Silence and Great Goblin twice as separate physical assets ($33.87 & $29.75). | Camera had captured **two photos seconds apart in the same sleeve** (identical dust flecks and lighting glare). | **-$63.62** (Duplicates purged) |
+| **Transactional State Leakage** | Retained 51 previously settled assets in active evaluation queues (Exodia limbs, vintage staples, promotional rares). | Items had **already been committed and closed in prior point-of-sale sessions**, testing cross-session transactional boundary enforcement. | **-$1,504.22** (Closed-session items reconciled) |
 
 ### The Real Takeaway: Human-Architected Governance
-Following this forensic audit, the active inventory was corrected from **171 unverified items ($4,227.42)** down to **107 verified items ($2,102.71)** of true physical ground truth.
+Following this forensic audit, the active evaluation corpus was corrected from **171 unverified items ($4,227.42)** down to **107 verified items ($2,102.71)** of true physical ground truth, successfully purging $2,124.71 in phantom valuation drift.
 
 This real-world incident proves why autonomous AI cannot be trusted as an unmonitored solo actor. True operational success requires an adversarial symbiotic loop: **The Creator providing domain intuition and adversarial challenge, Prism executing the discernment and deep repair, the Doppelgänger inverting cognitive attention to hunt discrete flaws, and Absolution enforcing non-negotiable zero-trust verification against ground truth.**
 
