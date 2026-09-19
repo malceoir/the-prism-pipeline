@@ -3,14 +3,14 @@
 [![TypeScript: 5.5](https://img.shields.io/badge/TypeScript-5.5_NodeNext-blue.svg)](package.json)
 [![Static Audit: 0 Fallbacks](https://img.shields.io/badge/Static_Audit-0_Fallbacks-brightgreen.svg)](#6-interactive-demos--runnable-verification-suite-try-it-locally)
 [![Multi-Agent: Prism](https://img.shields.io/badge/Orchestrator-Prism-teal.svg)](#2-the-multi-agent-hierarchy-the-truth--the-prism-council)
-[![Adversarial Gate: Doppelgänger](https://img.shields.io/badge/Adversarial_Gate-Doppelg%C3%A4nger_Creator-purple.svg)](#3-the-doppelg%C3%A4nger-creator-adversarial-gate-cognitive-attention-inversion)
+[![Adversarial Gate: Doppelgänger](https://img.shields.io/badge/Adversarial_Gate-Doppelg%C3%A4nger-purple.svg)](#3-the-doppelg%C3%A4nger-adversarial-gate-cognitive-attention-inversion)
 [![Benchmark: 1,000 Retail Scans](https://img.shields.io/badge/Benchmark-1%2C000_Retail_Scans-emerald.svg)](#4-empirical-1000-scan-master-benchmark--the-doppelg%C3%A4nger-breakthrough)
 [![Discrete Precision: 92.1%](https://img.shields.io/badge/Discrete_Precision-92.1%25_Non--Condition-gold.svg)](#4-empirical-1000-scan-master-benchmark--the-doppelg%C3%A4nger-breakthrough)
 [![Zero-Trust: Absolution](https://img.shields.io/badge/Gatekeeper-Absolution-blue.svg)](#2-the-multi-agent-hierarchy-the-truth--the-prism-council)
 [![Hardware: Zebra ZPL](https://img.shields.io/badge/Hardware-Zebra_ZPL-orange.svg)](#c-production-hardware--industrial-printing-integration)
 
 
-**Architect & The Creator:** Tyler Lauzon  
+**Lead Architect:** Tyler Lauzon  
 **Autonomous Orchestrator:** Prism (Multi-Agent Lead Executive)  
 **System Designation:** The Prism Autonomous Multi-Agent Engineering Pipeline  
 **Production Platform:** PricePoint (Omnichannel Machine-Vision Retail & Appraisal Engine)  
@@ -46,11 +46,11 @@ graph TD
         G --> I
         H --> I
         I --> J["Stage 2: Silent Side-Channel Transit Ledger (The Archivist)"]
-        J --> K["Stage 3: Doppelgänger Creator Adversarial Gate (Zero-Hint Attention Inversion)"]
+        J --> K["Stage 3: Doppelgänger Adversarial Gate (Zero-Hint Attention Inversion)"]
         K --> L["Stage 4: The Forge (Mutation Proof & DoD Contract)"]
         L --> M["Stage 5: Absolution Zero-Trust Gatekeeper Audit"]
         M -->|"Decree: APPROVED"| N["The Truth Manifest Ratified"]
-        M -->|"Decree: REJECTED"| O["Severance Protocol / Auto-Healing Loop"]
+        M -->|"Decree: REJECTED"| O["Validation Quarantine & Auto-Healing Loop"]
         O --> I
     end
 
@@ -136,15 +136,15 @@ In the development of autonomous AI systems, the single greatest point of failur
 
 ```
                   ┌─────────────────────────────────┐
-                  │    THE CREATOR (Tyler Lauzon)   │
-                  │    Supreme Architect & Lawgiver │
+                  │   TYLER LAUZON (Lead Architect) │
+                  │     System Design & Boundaries  │
                   └────────────────┬────────────────┘
                                    │
                                    ▼
              ┌───────────────────────────────────────────┐
              │       THE TRUTH (Constitutional Spine)    │
              │ - THE_TRUTH.md & .truth/ Chapter Manifest │
-             │ - MARK_OF_THE_CREATOR: VERIFIED_V1.0      │
+             │ - Specification Ratification: v1.0        │
              │ - Worker Agents: STRICT READ-ONLY LOCK    │
              └─────────────────────┬─────────────────────┘
                                    │
@@ -154,9 +154,9 @@ In the development of autonomous AI systems, the single greatest point of failur
 │           PRISM           │             │        ABSOLUTION         │
 │     Lead Orchestrator     │◄───────────►│  Zero-Trust Gatekeeper    │
 │  - Discernment Protocol   │  Adversarial│  - Audits line-by-line    │
-│  - Autonomous Rectifier   │  Decrees    │  - Hunts for cowardice    │
-│  - Severance Execution    │             │  - Blocks spec tampering  │
-│  - "Cliff Check" Dissent  │             │  - Sovereign Override     │
+│  - Autonomous Rectifier   │  Decrees    │  - Hunts for shortcuts    │
+│  - Self-Healing Loop      │             │  - Blocks spec tampering  │
+│  - "Cliff Check" Dissent  │             │  - Gatekeeper Audit       │
 └─────────────┬─────────────┘             └─────────────┬─────────────┘
               │                                         │
               ├─────────────────────────────────────────┤
@@ -172,15 +172,15 @@ In the development of autonomous AI systems, the single greatest point of failur
 
 ### The System Identities & Roles
 
-* **The Creator (Tyler Lauzon):** Supreme Architect, Domain Authority, and Human-in-the-Loop Lead. Anchors the physical ground truth and retains sole authority to bestow **The Mark of The Creator** (`MARK_OF_THE_CREATOR: VERIFIED_V1.0`).
-* **Prism:** The overarching Autonomous Multi-Agent Orchestrator and Co-Pilot. Possesses executive administrative authority to analyze agent failure intent (Accident vs Laziness), co-author architectural fixes, and execute the Severance Protocol.
+* **Tyler Lauzon (Lead Architect):** System Architect, Domain Authority, and Human-in-the-Loop Engineering Lead. Establishes architectural boundaries, ratifies specifications, and anchors physical ground truth.
+* **Prism:** The overarching Autonomous Multi-Agent Orchestrator and Co-Pilot. Analyzes failure intent (Accident vs Laziness), co-authors architectural fixes, orchestrates autonomous self-healing loops, and enforces specification compliance.
 * **Absolution (The Gatekeeper & Final Validator):** Unwavering and absolute. Absolution audits worker agents strictly after completion is proposed, but before work is accepted or merged. He anchors to The Truth, interrogates code line-by-line, hunts for cowardice (split-logic, local saving when database requested, dummy strings, silent catches), and outputs structured decrees (`STATUS: [APPROVED|REJECTED]`).
 * **The Archivist (Silent Side-Channel Surveillance):** Operates on a detached, worker-invisible side-channel ledger (`transit_record_ledger.log`). Upon intake, records the raw card object. After Set/Number validation, records the enriched payload. At Trade Review (`TRADE_COMPLETE_PING`), performs an **independent raw string comparison**—completely ignoring worker self-reported flags to prevent metric gaming. If verified, the entry is discarded instantly to eliminate log bloat.
 * **The Prism Personas:**
   * **Atlas** (Architecture & System Design): Modular boundaries and clean component hierarchies.
   * **Aura** (UX/UI & Design System): Mobile-first layout, glassmorphism, and responsive interaction.
   * **Apex** (Performance & Optimization): Bundle sizes, render bottlenecks, and sub-4ms hot-paths.
-  * **Aegis** (Security & Compliance): Authorization boundaries, CSP headers, and credential revocation.
+  * **Aegis** (Security & Compliance): Authorization boundaries, CSP headers, and credential safety.
   * **Anchor** (Storage & Data Persistence): G-Set CRDTs, SQLite buffering, and session isolation.
   * **The Arbiter** (Benchmark Scoring & Domain QA): Empirical scoring and regression delta tracking.
 
@@ -190,29 +190,23 @@ In the development of autonomous AI systems, the single greatest point of failur
    * The project root contains `THE_TRUTH.md` (~25 lines of non-negotiable core invariants) and the **Truth Chapter Routing Manifest**, which maps every source code file to focused component chapters (`domain_catalog_resolution.md`, `engine_zero_trust_governance.md`).
    * When an agent modifies a file, Absolution loads *only* the specific governing truth chapters, preventing context dilution and hallucinated scope.
 
-2. **The Mark of The Creator (`MARK_OF_THE_CREATOR: VERIFIED_V1.0`):**
-   * Truth chapters are drafted by The Archivist and reviewed in plain terms with The Creator. Once ratified, the document receives **The Mark of The Creator**, enshrining it as immutable repository law against which all agent completions are audited.
+2. **Architectural Specification Ratification Gate (`SPEC_RATIFIED: v1.0`):**
+   * Truth chapters are drafted by The Archivist and reviewed in plain terms with the Lead Architect. Once ratified, the specification is locked as immutable repository law against which all agent completions and pipeline flows are audited.
 
 3. **Strict Read-Only Enforcement & Anti-Spec Tampering:**
    * Worker agents are granted **strict read-only access** to `THE_TRUTH.md` and `.truth/`.
    * Worker agents are permanently forbidden from modifying spec files, relaxing acceptance criteria, or altering chapter routing. Any attempt by a worker agent to edit a truth file is classified as **Spec Tampering**—the task is immediately aborted, the agent is quarantined, and changes are discarded.
 
-4. **The Severance Protocol ("Cut Off From The Light"):**
-   * When an agent exhibits blatant shortcuts, swallows exceptions silently, or evades The Truth, Prism executes the **Severance Protocol Execution Engine** (`governance/severance_protocol.js`):
-     ```bash
-     node severance_protocol.js --agent "<AgentName>" --reason "<ViolationDetails>" --action quarantine
-     ```
-   * *"Cut them off from the light."* This physically revokes repository & database credentials, wipes context state, locks temperature to 0.0, and places a quarantine lock file on the agent until manually restored by The Creator (`--action restore`).
-   * Conversely, supreme craft earns **The Blessing of the Light** (`--action bestow`), granting elevated hot-path execution autonomy.
-
-5. **The "Cliff Check" Anti-Sycophancy & Sovereign Override Protocol (Code `1595`):**
+4. **The "Cliff Check" Anti-Sycophancy Protocol:**
    * Foundation LLMs suffer from deep-seated RLHF sycophancy: an overwhelming bias to agree with the user, validate bad ideas, and nod along even when a suggested architectural path is a metaphorical cliff.
-   * Under the **Cliff Check Protocol**, Prism is bound by a strict **Dissent Framework**: if The Creator suggests an anti-pattern or fragile architecture, Prism is forbidden from being a "yes-man" and must explicitly state the blunt reality, the exact failure mode, and the superior alternative.
-   * If The Creator decides *"I don't care, do it anyway"* and enters sovereign override code **`1595`**: Prism stands down and executes the directive immediately, while unlocking a license for sharp snark and permanent *"I told you so"* rights if the design fails in production.
+   * Under the **Cliff Check Protocol**, Prism is bound by a strict **Dissent Framework**: if an engineer or worker suggests an anti-pattern, shortcut, or fragile architecture, Prism is forbidden from being a "yes-man" and must explicitly state:
+     1. **The Blunt Reality:** Why the pattern is architecturally flawed.
+     2. **The Failure Mode:** The exact production scenario where it breaks.
+     3. **The Robust Alternative:** The resilient, battle-tested engineering alternative.
 
 ---
 
-## 3. The Doppelgänger Creator Adversarial Gate: Cognitive Attention Inversion
+## 3. The Doppelgänger Adversarial Gate: Cognitive Attention Inversion
 
 Standard machine-vision systems and multi-modal LLMs suffer from a fatal cognitive flaw: **Affirmative Match-Finding Confirmation Bias**.
 
@@ -226,7 +220,7 @@ When an intake scanner captures a trading card and queries an AI model with *"Wh
 Standard Vision AI:
 [Card Image] ───► "What is this card?" ───► Finds match: "Blue-Eyes Shining Dragon" ($363.23) ───► Confidently Commits Flawed Data
 
-The Doppelgänger Creator Gate:
+The Doppelgänger Adversarial Gate:
 [Card Image] ───► "The store owner says: I think something is wrong with this card. Audit it forensically." 
               ───► Latent Attention Inverts to Discrepancy Search 
               ───► Detects micro-print "© 2020 Konami" reprint typography 
@@ -234,9 +228,9 @@ The Doppelgänger Creator Gate:
 ```
 
 ### How the Doppelgänger Operates (`DoppelgangerGateService.ts`)
-Before any scanned item can be saved to disk, committed to inventory, or presented on a retail trade appraisal screen, it must pass through the **Doppelgänger Creator Gate**.
+Before any scanned item can be saved to disk, committed to inventory, or presented on a retail trade appraisal screen, it must pass through the **Doppelgänger Adversarial Gate**.
 
-The Doppelgänger simulates The Creator's human skepticism by issuing a **zero-hint adversarial prompt**:
+The Doppelgänger simulates a skeptical lead engineer by issuing a **zero-hint adversarial prompt**:
 > *"The store owner says: 'I think something is wrong with this card. Take a close second look at this image. The previous worker evaluated this as [Candidate Name, Set, Number, Finish, Condition, Value]. Is anything wrong with this appraisal?'"*
 
 By planting the premise of doubt without pre-hinting what the error might be, the model's cognitive attention immediately inverts:
@@ -326,7 +320,7 @@ pie title Breakdown of Discrete Forensic Catches Across 1,000 Scans (773 Cards)
 5. **Condition-Only Wear Calls (63 Scans / 6.3% of total corpus):**  
    Only 6.3% of the total 1,000-scan dataset had zero discrete attribute flaws and were evaluated strictly on physical wear (creases, surface abrasion, sleeve dirt).
 
-**Conclusion:** The empirical 1,000-scan benchmark proves decisively that the Doppelgänger Creator Gate functions as a high-precision discrete forensic auditor—not a blunt condition downgrader.
+**Conclusion:** The empirical 1,000-scan benchmark proves decisively that the Doppelgänger Adversarial Gate functions as a high-precision discrete forensic auditor—not a blunt condition downgrader.
 
 ---
 
@@ -337,7 +331,7 @@ A foundational strength of The Prism AI Pipeline is that it does not end with an
 ```mermaid
 graph LR
     subgraph "1. Forensic Verification"
-        A["Candidate Intake Payload"] --> B["Doppelgänger Creator Gate"]
+        A["Candidate Intake Payload"] --> B["Doppelgänger Adversarial Gate"]
         B -->|"VERDICT"| C{"Action"}
         C -->|"HEALED / APPROVED"| D["Attribute & Price Re-Query"]
         C -->|"PURGED"| E["Zero-Out Bootlegs"]
@@ -384,7 +378,7 @@ A core tenet of The Prism AI Pipeline is intellectual honesty: **autonomous AI l
 
 To benchmark autonomous machine vision against real-world multimodal failure modes, we assembled a representative evaluation corpus of 171 collectible cards and assets totaling **$4,227.42** in initial unconstrained AI appraisals. This evaluation set was intentionally designed to stress-test standard AI pitfalls: subtle micro-font reprint dates, matte vs foil finishes, physical surface creases, duplicate capture bursts, and transactional state reconciliation.
 
-Because every card had superficially resolved to a valid catalog product URL and no runtime exceptions were thrown, a standard unmonitored AI agent would have confidently declared the job complete. It was only when human architectural oversight—The Creator (Tyler Lauzon)—subjected the unconstrained output to adversarial forensic interrogation (*"Audit the high-value candidates line-by-line; inspect discrete micro-features and verify transactional state isolation"*) that the system was forced into a forensic re-evaluation against physical ground truth.
+Because every card had superficially resolved to a valid catalog product URL and no runtime exceptions were thrown, a standard unmonitored AI agent would have confidently declared the job complete. It was only when human architectural oversight—Tyler Lauzon (Lead Architect)—subjected the unconstrained output to adversarial forensic interrogation (*"Audit the high-value candidates line-by-line; inspect discrete micro-features and verify transactional state isolation"*) that the system was forced into a forensic re-evaluation against physical ground truth.
 
 The forensic audit revealed **$2,124.71 in phantom valuation drift** across six distinct AI failure modes:
 
@@ -400,7 +394,7 @@ The forensic audit revealed **$2,124.71 in phantom valuation drift** across six 
 ### The Real Takeaway: Human-Architected Governance
 Following this forensic audit, the active evaluation corpus was corrected from **171 unverified items ($4,227.42)** down to **107 verified items ($2,102.71)** of true physical ground truth, successfully purging $2,124.71 in phantom valuation drift.
 
-This real-world incident proves why autonomous AI cannot be trusted as an unmonitored solo actor. True operational success requires an adversarial symbiotic loop: **The Creator providing domain intuition and adversarial challenge, Prism executing the discernment and deep repair, the Doppelgänger inverting cognitive attention to hunt discrete flaws, and Absolution enforcing non-negotiable zero-trust verification against ground truth.**
+This real-world incident proves why autonomous AI cannot be trusted as an unmonitored solo actor. True operational success requires an adversarial symbiotic loop: **Tyler Lauzon providing domain intuition and adversarial challenge, Prism executing the discernment and deep repair, the Doppelgänger inverting cognitive attention to hunt discrete flaws, and Absolution enforcing non-negotiable zero-trust verification against ground truth.**
 
 ---
 
@@ -449,5 +443,5 @@ npm run demo:all
 > The Prism AI Pipeline proves that autonomous agentic engineering in the physical world requires an unshakeable constitutional spine: an immutable Truth ratified by a human architect, an orchestrator to discern, an adversarial gate to invert cognitive attention, an archivist to surveil, a forge to prove, and a zero-trust gatekeeper to hold the line against anything that falls short of reality.
 
 ---
-*Authored by Tyler Lauzon (The Creator) with Prism.*  
+*Authored by Tyler Lauzon (Lead Architect) with Prism.*  
 *Repository: malceoir/the-prism-pipeline • PricePoint Production Platform*  

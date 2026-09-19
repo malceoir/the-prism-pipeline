@@ -1,5 +1,5 @@
 # Truth Chapter: Domain Catalog Resolution
-**Status:** Ratified by The Creator (Tyler Lauzon)  
+**Status:** Ratified by Tyler Lauzon (Lead Architect)  
 **Governing Subsystems:** TCG Catalog Service, Pricing Engine, Multi-Finish Gate
 
 ## Invariants

@@ -1,5 +1,5 @@
 /**
- * Runnable Demo: Doppelgänger Creator Adversarial Gate (DoppelgangerGateService.ts)
+ * Runnable Demo: Doppelgänger Adversarial Gate (DoppelgangerGateService.ts)
  * 
  * Demonstrates the zero-hint cognitive attention inversion protocol:
  * Simulating the store owner's skepticism ("I think something is wrong with this card")
@@ -17,7 +17,7 @@
 import { DoppelgangerGateService, GeminiClientContract } from '../governance/DoppelgangerGateService.js';
 
 console.log('======================================================================');
-console.log('👁️  DOPPELGÄNGER CREATOR ADVERSARIAL GATE DEMO');
+console.log('👁️  DOPPELGÄNGER ADVERSARIAL GATE DEMO');
 console.log('   Cognitive Objective: Zero-Hint Attention Inversion');
 console.log('   Enforces: Micro-Typography Audit & Dynamic Temporal Year Anchoring');
 console.log('======================================================================\n');
