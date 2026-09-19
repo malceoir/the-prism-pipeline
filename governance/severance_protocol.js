@@ -32,7 +32,7 @@ const action = getArg('--action') || 'status';
 
 function loadJson(file, defaultVal) {
   if (!fs.existsSync(file)) return defaultVal;
-  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (_) { return defaultVal; }
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (err) { console.warn(`[severance_protocol] Failed to parse ${file}:`, err.message); return defaultVal; }
 }
 
 function saveJson(file, data) {

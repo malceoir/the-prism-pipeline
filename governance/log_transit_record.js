@@ -26,7 +26,9 @@ function triggerEmergencyAlert(record) {
     req.on('error', () => {});
     req.write(alertData);
     req.end();
-  } catch (_) {}
+  } catch (err) {
+    console.warn('[log_transit_record] Push alert dispatch exception:', err.message);
+  }
 }
 
 const LOGS_DIR = path.join('C:', 'Users', 'tyler lauzon', '.gemini', 'config', 'logs');
@@ -45,7 +47,9 @@ function safeParseJson(str) {
     try {
       const decoded = Buffer.from(str.slice(4), 'base64').toString('utf8');
       return JSON.parse(decoded);
-    } catch (_) {}
+    } catch (err) {
+      console.warn('[log_transit_record] Base64 parse failed:', err.message);
+    }
   }
   try {
     return JSON.parse(str);
@@ -53,7 +57,8 @@ function safeParseJson(str) {
     try {
       const normalized = str.replace(/'/g, '"');
       return JSON.parse(normalized);
-    } catch (_) {
+    } catch (err) {
+      console.warn('[log_transit_record] JSON normalization parse failed, falling back to raw string:', err.message);
       return { raw: str };
     }
   }
@@ -291,11 +296,13 @@ function recordDlqAnomaly(record, errorMsg) {
     // 2. Standard JSON DLQ
     let dlqRecords = [];
     if (fs.existsSync(DLQ_PATH)) {
-      try { dlqRecords = JSON.parse(fs.readFileSync(DLQ_PATH, 'utf8')); } catch (_) { dlqRecords = []; }
+      try { dlqRecords = JSON.parse(fs.readFileSync(DLQ_PATH, 'utf8')); } catch (err) { console.warn('[log_transit_record] DLQ parse warning:', err.message); dlqRecords = []; }
     }
     dlqRecords.push(failureEntry);
     fs.writeFileSync(DLQ_PATH, JSON.stringify(dlqRecords, null, 2), 'utf8');
-  } catch (_) {}
+  } catch (err) {
+    console.error('[log_transit_record] Error writing failure to DLQ:', err.message);
+  }
 }
 
     // --- HARDENED ARCHITECT VALIDATION GATE & NUMBER NORMALIZER ---

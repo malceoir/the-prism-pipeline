@@ -9,7 +9,7 @@ export interface AntiBandaidIssue {
   recommendation: string;
 }
 
-const TARGET_PATHS = ['src', 'pos-agent', 'server.ts', 'scripts'];
+const TARGET_PATHS = ['core', 'governance', 'hardware', 'scanners', 'vision', 'scripts'];
 const IGNORED_SCRIPTS = ['detect_silent_fallbacks.ts']; // Ignore the auditor itself
 
 function collectTargetFiles(targets: string[]): string[] {
@@ -127,7 +127,7 @@ function scanFile(filePath: string): AntiBandaidIssue[] {
 }
 
 export function runAntiBandaidAudit(): AntiBandaidIssue[] {
-  console.log('🛡️  Running Total Codebase Anti-Bandaid & Silent Fallback Audit across [src, pos-agent, server.ts, scripts]...\n');
+  console.log(`🛡️  Running Total Codebase Anti-Bandaid & Silent Fallback Audit across [${TARGET_PATHS.join(', ')}]...\n`);
   const allFiles = collectTargetFiles(TARGET_PATHS);
   const allIssues: AntiBandaidIssue[] = [];
 
@@ -147,6 +147,7 @@ export function runAntiBandaidAudit(): AntiBandaidIssue[] {
       console.log(`   Code: "${issue.snippet}"`);
       console.log(`   Fix: ${issue.recommendation}\n`);
     });
+    process.exit(1);
   }
 
   return allIssues;

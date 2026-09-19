@@ -1,0 +1,30 @@
+{
+  "name": "the-prism-pipeline",
+  "version": "1.0.0",
+  "description": "Autonomous Multi-Agent AI Governance, Real-Time Machine Vision & Zebra Thermal Hardware Pipeline",
+  "main": "scanners/detect_silent_fallbacks.ts",
+  "type": "module",
+  "scripts": {
+    "test": "npx tsx scanners/detect_silent_fallbacks.ts",
+    "demo:zpl": "npx tsx scripts/demo_zpl_compiler.ts",
+    "demo:glare": "npx tsx scripts/demo_glare_rejection.ts",
+    "demo:gate": "npx tsx scripts/demo_doppelganger_audit.ts",
+    "demo:all": "npm run test && npm run demo:zpl && npm run demo:glare && npm run demo:gate"
+  },
+  "keywords": [
+    "multi-agent",
+    "ai-governance",
+    "machine-vision",
+    "zebra-zpl",
+    "crdt",
+    "retail-pos",
+    "adversarial-validation"
+  ],
+  "author": "Tyler Lauzon",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}
