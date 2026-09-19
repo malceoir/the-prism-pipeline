@@ -39,7 +39,7 @@ export interface DoppelgangerAuditResult {
 
 export class DoppelgangerGateService {
   /**
-   * Executes the zero-hint Doppelgänger Creator adversarial interrogation on any candidate appraisal.
+   * Executes the zero-hint Doppelgänger adversarial interrogation on any candidate appraisal.
    * Simulates the human store owner ("I think something is wrong with this card") to flip the model's
    * cognitive objective from affirmative match-finding to forensic audit verification.
    */

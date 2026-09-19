@@ -1,7 +1,7 @@
 # THE TRUTH (PRICEPOINT CORE SPINE & ROUTING MANIFEST)
-**MARK_OF_THE_CREATOR**: `VERIFIED_V1.0`  
-**Ratified**: September 4, 2026 by The Creator (Tyler Lauzon) & Prism Council  
-**Status**: SUPREME REPOSITORY LAW — WORKER READ-ONLY LOCK ACTIVE
+**SPEC_RATIFIED**: `VERIFIED_V1.0`  
+**Ratified**: September 4, 2026 by Tyler Lauzon (Architect) & Prism  
+**Status**: IMMUTABLE ARCHITECTURAL SPECIFICATION — WORKER READ-ONLY LOCK ACTIVE
 
 ---
 
@@ -20,4 +20,4 @@
 
 ## 2. Truth Chapter Routing Manifest
 - `domain_catalog_resolution.md`: Maps to catalog resolution, composite key generation, finish gates, and fallback logic.
-- `engine_zero_trust_governance.md`: Maps to Absolution decrees, Archivist surveillance, and Severance protocol.
+- `engine_zero_trust_governance.md`: Maps to Absolution verification audits, Archivist transit surveillance, and quarantine execution.

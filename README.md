@@ -3,7 +3,7 @@
 [![TypeScript: 5.5](https://img.shields.io/badge/TypeScript-5.5_NodeNext-blue.svg)](package.json)
 [![Static Audit: 0 Fallbacks](https://img.shields.io/badge/Static_Audit-0_Fallbacks-brightgreen.svg)](#quick-start-try-it-locally-60-seconds)
 [![Multi-Agent: Prism](https://img.shields.io/badge/Orchestrator-Prism-teal.svg)](#1-deep-dive-whats-under-the-hood-of-the-prism-ai-pipeline)
-[![Adversarial Gate: Doppelgänger](https://img.shields.io/badge/Adversarial_Gate-Doppelg%C3%A4nger_Creator-purple.svg)](#3-the-doppelg%C3%A4nger-creator-adversarial-gate-cognitive-attention-inversion)
+[![Adversarial Gate: Doppelgänger](https://img.shields.io/badge/Adversarial_Gate-Doppelg%C3%A4nger-purple.svg)](#3-the-doppelg%C3%A4nger-adversarial-gate-cognitive-attention-inversion)
 [![Benchmark: 1,000 Retail Scans](https://img.shields.io/badge/Benchmark-1%2C000_Retail_Scans-emerald.svg)](#4-empirical-1000-scan-master-benchmark--the-doppelg%C3%A4nger-breakthrough)
 [![Discrete Precision: 92.1%](https://img.shields.io/badge/Discrete_Precision-92.1%25_Non--Condition-gold.svg)](#4-empirical-1000-scan-master-benchmark--the-doppelg%C3%A4nger-breakthrough)
 [![Zero-Trust: Absolution](https://img.shields.io/badge/Gatekeeper-Absolution-blue.svg)](#2-the-supremacy-of-the-truth-defeating-goal-drift--specification-gaming)
@@ -95,11 +95,11 @@ graph TD
         G --> I
         H --> I
         I --> J["Stage 2: Silent Side-Channel Transit Ledger (Archivist)"]
-        J --> K["Stage 3: Doppelgänger Creator Adversarial Gate (Zero-Hint Attention Inversion)"]
+        J --> K["Stage 3: Doppelgänger Adversarial Gate (Zero-Hint Attention Inversion)"]
         K --> L["Stage 4: The Forge (Mutation Proof & DoD Contract)"]
         L --> M["Stage 5: Absolution Zero-Trust Gatekeeper Audit"]
-        M -->|"Decree: APPROVED"| N["The Truth Manifest Ratified"]
-        M -->|"Decree: REJECTED"| O["Severance Protocol / Auto-Healing Loop"]
+        M -->|"Verdict: APPROVED"| N["Ratified Architecture Baseline"]
+        M -->|"Verdict: REJECTED"| O["Quarantine & Auto-Healing Loop"]
         O --> I
     end
 
@@ -176,7 +176,7 @@ In the development of autonomous AI systems, the single greatest point of failur
              ┌───────────────────────────────────────────┐
              │       THE TRUTH (Constitutional Spine)    │
              │ - THE_TRUTH.md & .truth/ Chapter Manifest │
-             │ - MARK_OF_THE_CREATOR: VERIFIED_V1.0      │
+             │ - SPEC_RATIFIED: VERIFIED_V1.0            │
              │ - Worker Agents: STRICT READ-ONLY LOCK    │
              └─────────────────────┬─────────────────────┘
                                    │
@@ -185,8 +185,8 @@ In the development of autonomous AI systems, the single greatest point of failur
 ┌───────────────────────────┐             ┌───────────────────────────┐
 │           PRISM           │             │        ABSOLUTION         │
 │  Autonomous Orchestrator  │◄───────────►│  Zero-Trust Gatekeeper    │
-│  - Multi-Agent Executive  │  Adversarial│  - Pre-Merge Line Audit   │
-│  - Discernment Protocol   │  Decrees    │  - Anti-Shortcut Hunter   │
+│  - Multi-Agent Executive  │  Audit      │  - Pre-Merge Line Audit   │
+│  - Discernment Protocol   │  Verdicts   │  - Anti-Shortcut Hunter   │
 │  - Quarantine Execution   │             │  - Rejects Spec Tampering │
 │  - "Cliff Check" Dissent  │             │  - Independent Proofs     │
 └─────────────┬─────────────┘             └─────────────┬─────────────┘
@@ -208,8 +208,8 @@ In the development of autonomous AI systems, the single greatest point of failur
    * The project root contains `THE_TRUTH.md` (~25 lines of non-negotiable core invariants) and the **Truth Chapter Routing Manifest**, which maps every source code file to focused component chapters (`domain_catalog_resolution.md`, `engine_zero_trust_governance.md`).
    * When an agent modifies a file, Absolution loads *only* the specific governing truth chapters, preventing context dilution and hallucinated scope.
 
-2. **The Architectural Ratification Gate (`MARK_OF_THE_CREATOR`):**
-   * Truth chapters are drafted by The Archivist and reviewed in plain terms with Tyler Lauzon (Architect). Once ratified, the document receives the **Ratification Marker** (`MARK_OF_THE_CREATOR: VERIFIED_V1.0`), enshrining it as immutable repository law against which all agent completions are audited.
+2. **The Architectural Specification Ratification Gate (`SPEC_RATIFIED`):**
+   * Truth chapters are drafted by The Archivist and reviewed in plain terms with Tyler Lauzon (Architect). Once ratified, the document receives the **Ratification Marker** (`SPEC_RATIFIED: VERIFIED_V1.0`), enshrining it as immutable repository law against which all agent completions are audited.
 
 3. **Strict Read-Only Enforcement & Anti-Spec Tampering:**
    * Worker agents are granted **strict read-only access** to `THE_TRUTH.md` and `.truth/`.
@@ -222,7 +222,7 @@ In the development of autonomous AI systems, the single greatest point of failur
 
 ---
 
-## 3. The Doppelgänger Creator Adversarial Gate: Cognitive Attention Inversion
+## 3. The Doppelgänger Adversarial Gate: Cognitive Attention Inversion
 
 Standard machine-vision systems and multi-modal LLMs suffer from a fatal cognitive flaw: **Affirmative Match-Finding Confirmation Bias**.
 
@@ -236,7 +236,7 @@ When an intake scanner captures a trading card and queries an AI model with *"Wh
 Standard Vision AI:
 [Card Image] ───► "What is this card?" ───► Finds match: "Blue-Eyes Shining Dragon" ($363.23) ───► Confidently Commits Flawed Data
 
-The Doppelgänger Creator Gate:
+The Doppelgänger Adversarial Gate:
 [Card Image] ───► "I think something is wrong with this card. Audit it forensically." 
               ───► Latent Attention Inverts to Discrepancy Search 
               ───► Detects micro-print "© 2020 Konami" reprint typography 
@@ -244,7 +244,7 @@ The Doppelgänger Creator Gate:
 ```
 
 ### How the Doppelgänger Operates (`DoppelgangerGateService.ts`)
-Before any scanned item can be saved to disk, committed to inventory, or presented on a retail trade appraisal screen, it must pass through the **Doppelgänger Creator Gate**.
+Before any scanned item can be saved to disk, committed to inventory, or presented on a retail trade appraisal screen, it must pass through the **Doppelgänger Adversarial Gate**.
 
 The Doppelgänger simulates the retail store owner's human skepticism by issuing a **zero-hint adversarial prompt**:
 > *"The store owner says: 'I think something is wrong with this card. Take a close second look at this image. The previous worker evaluated this as [Candidate Name, Set, Number, Finish, Condition, Value]. Is anything wrong with this appraisal?'"*
@@ -336,7 +336,7 @@ pie title Breakdown of Discrete Forensic Catches Across 1,000 Scans (773 Cards)
 5. **Condition-Only Wear Calls (63 Scans / 6.3% of total corpus):**  
    Only 6.3% of the total 1,000-scan dataset had zero discrete attribute flaws and were evaluated strictly on physical wear (creases, surface abrasion, sleeve dirt).
 
-**Conclusion:** The empirical 1,000-scan benchmark proves decisively that the Doppelgänger Creator Gate functions as a high-precision discrete forensic auditor—not a blunt condition downgrader.
+**Conclusion:** The empirical 1,000-scan benchmark proves decisively that the Doppelgänger Adversarial Gate functions as a high-precision discrete forensic auditor—not a blunt condition downgrader.
 
 ---
 
