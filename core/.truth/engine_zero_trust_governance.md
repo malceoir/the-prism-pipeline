@@ -1,6 +1,6 @@
 # Truth Chapter: Engine Zero-Trust Governance
-**Status:** Ratified by Tyler Lauzon (Architect)  
-**Governing Subsystems:** Absolution, The Archivist, Quarantine Protocol
+**Status:** Ratified by The Creator (Tyler Lauzon)  
+**Governing Subsystems:** Absolution, The Archivist, Severance Protocol
 
 ## Invariants
 1. Anti-Spec Tampering: Worker agents are permanently forbidden from modifying truth chapters.
